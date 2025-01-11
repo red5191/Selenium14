@@ -83,4 +83,4 @@ logout_button.click()
 time.sleep(2)
 now_date = datetime.datetime.now().strftime('%Y.%m.%d-%H.%M.%S')
 name_screenshot = 'screenshot' + now_date + '.png'
-driver.save_screenshot('C:\\Users\\the_r\\PycharmProjects\\Selenium13\\screenshots\\' + name_screenshot)
+driver.save_screenshot('C:\\Users\\the_r\\PycharmProjects\\Selenium14\\screenshots\\' + name_screenshot)
